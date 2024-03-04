@@ -33,8 +33,15 @@
     box-shadow: var(--boxShadow);
    }
 
-   .nav-logo{
-    font-weight: 600 ;
+   .logo-name{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
     font-size: 25px !important;
+   }
+
+   .nav-logo{
+    color: var(--yellow);
+    font-weight: 600 ;
+    font-size: 25px ;
    }
    
