@@ -1,47 +1,139 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  :root {
-    --yellow: #e59500;
-    --white: #fff;
-    --black: #000;
-    --grey: #242d29;
-    --boxShadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    --btnShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-  }
-  
-  button {
-    border-radius: 20px !important;
-    border: none !important;
-    background-color: var(--yellow) !important;
-    font-size: 16px !important;
-    padding: 7px 32px !important;
-  }
-  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-   /* ===========================  navbar  =============================  */
-   .nav-bg{
-    background-color: var(--white);
-    box-shadow: var(--boxShadow);
-   }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
-   .logo-name{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600 !important;
-    font-size: 25px !important;
-   }
+:root {
+  --yellow: #e59500;
+  --white: #fff;
+  --black: #000;
+  --grey: #242d29;
+  --boxShadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  --btnShadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
 
-   .nav-logo{
-    color: var(--yellow);
-    font-weight: 600 ;
-    font-size: 25px ;
-   }
-   
+button {
+  border-radius: 20px !important;
+  border: none !important;
+  background-color: var(--yellow) !important;
+  font-size: 16px ;
+  padding: 7px 32px !important;
+}
+
+/* ===========================  navbar  =============================  */
+.nav-bg {
+  background-color: var(--white);
+  box-shadow: var(--boxShadow);
+}
+
+.logo-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+}
+
+.nav-logo {
+  color: var(--yellow);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.contact-btn {
+  margin-left: 2rem;
+  border: 2px solid var(--yellow) !important;
+  color: var(--yellow) !important;
+  background-color: white !important;
+  transition: transform 0.9s ease;
+}
+
+.contact-btn:hover {
+  color: var(--white) !important;
+  background-color: var(--yellow) !important;
+  transform: translateY(-3px);
+}
+/* ===========================  end navbar  =============================  */
+
+
+/* ===========================  home  =============================  */
+.main {
+  box-shadow: var(--boxShadow);
+  height: 27rem;
+}
+.paw1 {
+  position: absolute;
+  top: -28rem;
+  right: -22rem;
+  transform: scale(0.14);
+  opacity: 0.18;
+  z-index: 1;
+}
+.overlay-text > * {
+  margin-top: 1rem;
+}
+.overlay-text span:nth-of-type(1) {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.overlay-text span:nth-of-type(2) {
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+}
+.h-btn1 {
+  color: white;
+  transition: transform 0.9s ease;
+}
+.h-btn2 {
+  margin-left: 2rem;
+  border: 2px solid var(--yellow) !important;
+  color: var(--yellow) !important;
+  background-color: white !important;
+  transition: transform 0.9s ease;
+}
+
+.h-btn2:hover {
+  color: var(--white) !important;
+  background-color: var(--yellow) !important;
+  transform: translateY(-3px);
+}
+
+.h-btn1:hover {
+  border: 2px solid var(--yellow) !important;
+  color: var(--yellow) !important;
+  background-color: var(--white) !important;
+  transform: translateY(-3px);
+}
+
+.h-banner img {
+  width: 100%;
+  margin-top: -10rem;
+}
+/* ===========================  end home  =============================  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1{
+  margin-top: 20rem;
+}
