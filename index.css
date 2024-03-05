@@ -247,9 +247,9 @@ button {
 
 .footer-paw1 {
   position: absolute;
-  top: -25rem;
-  right: 12rem;
-  transform: scale(0.8);
+  top: -30rem;
+  right: -12rem;
+  transform: scale(0.6);
   z-index: -1;
 }
 
@@ -261,3 +261,118 @@ button {
   transition: transform 0.9s ease;
 }
 /* ===========================  end footer  =============================  */
+
+
+
+
+
+
+
+
+
+/* ===========================   Mobile screens  =============================  */
+
+/* Mobile screens for navbar */
+@media screen and (max-width: 480px) {
+  #nav-links{
+    display: none;
+  }
+  .logo-font{
+    margin-right: 200rem !important;
+  }
+}
+
+
+/* Mobile screens for home*/
+@media screen and (max-width: 480px) {
+  .main{
+    height: 35rem;
+  }
+  .overlay-text span:nth-of-type(1) {
+    margin-top: -1rem;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+  }
+  .overlay-text span:nth-of-type(2) {
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .h-banner{
+    margin-top: 13rem;
+  }
+  .animals-btns{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+  }
+  .h-btn1 {
+    padding: 5px 20px !important;
+  }
+  .h-btn2 {
+    padding: 5px 20px !important;
+  }
+  .paw1 {
+    position: absolute;
+    top: -6rem;
+    right: -1rem;
+    transform: scale(0.5);
+    opacity: 0.18;
+    z-index: 1;
+  }
+}
+
+
+
+ /* Mobile screens for animals*/
+ @media screen and (max-width: 480px){
+  .pet-text span:nth-of-type(1) {
+     font-size: 30px;
+     font-weight: 500;
+     display: flex;
+     justify-content: center;
+   }
+   .pet-text br{
+     display: none;
+   }
+   .pet-text span:nth-of-type(2)::after {
+     content: "\A\A";
+     white-space: pre;
+   }
+   .animals-text span:nth-of-type(1){
+     font-size: 30px;
+     font-weight: 500;
+  }
+  .a-paw1 {
+     display: none;
+   }
+}
+
+
+ /* Mobile screens for contact*/
+ @media screen and (max-width: 480px){
+  .contact-text span:nth-of-type(1){
+      font-size: 30px;
+      font-weight: 500;
+  }
+  .contact-font{
+      margin-left: -35px !important;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .footer-paw1 {
+    position: absolute;
+    top: -30rem;
+    right: -20rem;
+    transform: scale(0.6);
+    z-index: -1;
+  }
+  .main-footer {
+    margin-top: 14rem;
+  }
+
+}
