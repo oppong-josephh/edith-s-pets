@@ -117,6 +117,98 @@ button {
 /* ===========================  end home  =============================  */
 
 
+/* ===========================  animals  =============================  */
+.a-banner img {
+  width: 100%;
+}
+
+.pet-text span:nth-of-type(1) {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.pet-text span:nth-of-type(2) {
+    font-size: 16px;
+    color: var(--grey);
+    font-weight: 500;
+  }
+
+  .a-paw1 {
+    position: absolute;
+    top: 30rem;
+    right: -18rem;
+    transform: scale(0.35);
+    opacity: 0.18;
+    z-index: 1;
+  }
+
+ .custom-card {
+    border-radius: 30px !important;
+ }
+
+ .custom-card2 {
+    border-radius: 30px !important;
+ }
+
+ .animals-btn{
+    padding: 12px 5rem !important;
+    transition: transform 0.9s ease;
+    color: white;
+ }
+
+
+ .animals-btn:hover {
+    border: 2px solid var(--yellow) !important;
+    color: var(--yellow) !important;
+    background-color: var(--white) !important;
+    transform: translateY(-3px);
+ }
+
+ .animals-text span:nth-of-type(1){
+    font-size: 2.5rem;
+    font-weight: 500;
+ }
+
+ .animals-text span:nth-of-type(2){
+    font-size: 16px;
+    color: var(--grey);
+    font-weight: 500;
+ }
+
+ .overlay{
+  margin-top: -6rem;
+  margin-left: 1rem;
+ }
+/* ===========================  end animals  =============================  */
+
+
+/* ===========================  blog  =============================  */
+.blog-custom-card{
+  border-radius: 30px !important;
+  box-shadow: var(--boxShadow);
+}
+.blog-custom-card2{
+  border-radius: 30px 30px 0px 0px !important;
+}
+
+.b-read{
+  color: var(--yellow);
+}
+
+.blog-btn{
+  padding: 10px 5rem !important;
+  transition: transform 0.9s ease;
+}
+
+.blog-btn:hover{
+  border: 2px solid var(--yellow) !important;
+  color: var(--yellow) !important;
+  background-color: var(--white) !important;
+  transform: translateY(-3px);
+}
+/* ===========================  end blog  =============================  */
+
+
 
 
 
