@@ -209,23 +209,55 @@ button {
 /* ===========================  end blog  =============================  */
 
 
+/* ===========================  contact  =============================  */
+.contact-text span:nth-of-type(1){
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.contact-text span:nth-of-type(2){
+  font-size: 16px;
+  color: var(--grey);
+  font-weight: 500;
+}
+
+.label-title{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.form-group input{
+  border: 2px solid var(--yellow);
+}
+.form-group textarea{
+  border: 2px solid var(--yellow);
+}
+/* ===========================  end contact  =============================  */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ===========================  footer  =============================  */
 .footer1{
   margin-top: 20rem;
 }
+
+.main-footer{
+  background-color: #e59500;
+  position: relative;
+}
+
+.footer-paw1 {
+  position: absolute;
+  top: -25rem;
+  right: 12rem;
+  transform: scale(0.8);
+  z-index: -1;
+}
+
+.sub-btn {
+  margin-left: 2rem;
+  border: 2px solid var(--yellow) !important;
+  color: var(--yellow) !important;
+  background-color: white !important;
+  transition: transform 0.9s ease;
+}
+/* ===========================  end footer  =============================  */
