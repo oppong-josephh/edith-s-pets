@@ -274,7 +274,7 @@ button {
 
 /* Mobile screens for navbar */
 @media screen and (max-width: 480px) {
-  #nav-links{
+  .nav{
     display: none;
   }
   .logo-font{
