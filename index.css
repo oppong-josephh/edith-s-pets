@@ -34,8 +34,8 @@ button {
 
 .logo-name {
   font-family: "Poppins", sans-serif;
-  font-weight: 600 !important;
-  font-size: 25px !important;
+  font-weight: 600;
+  font-size: 25px ;
 }
 
 .nav-logo {
@@ -388,5 +388,10 @@ button {
   footer .footer-row{
   display: flex;
   flex-direction: column;
+  }
+  .main-logo-div .logo-name{
+    display: flex;
+    flex-direction: row;
+    font-size: 24.7px;
   }
 }
