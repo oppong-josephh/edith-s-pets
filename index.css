@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -43,7 +45,15 @@ button {
   font-weight: 600;
   font-size: 25px;
 }
-
+button .btn-text{
+  color: var(--yellow) !important;
+  text-decoration: none;
+}
+button .btn-text:hover {
+  color: var(--white) !important;
+  background-color: var(--yellow) !important;
+  transform: translateY(-3px);
+}
 .contact-btn {
   margin-left: 2rem;
   border: 2px solid var(--yellow) !important;
@@ -277,14 +287,21 @@ button {
   }
 }
 /* Mobile screens for navbar */
-/* @media screen and (max-width: 480px) {
-  .nav{
+@media screen and (max-width: 480px) {
+  /* .nav{
     display: none;
   }
   .logo-font{
     margin-right: 200rem !important;
+  } */
+  .navbar{
+    /* position: fixed;
+    width: 100%;
+  } */
+  .contact-btn {
+    margin-left: 0rem;
   }
-} */
+}
 
 
 /* Mobile screens for home*/
