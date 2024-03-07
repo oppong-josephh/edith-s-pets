@@ -255,8 +255,7 @@ button {
 
 .sub-btn {
   margin-left: 2rem;
-  border: 2px solid var(--yellow) !important;
-  color: var(--yellow) !important;
+  color: var(--yellow) ;
   background-color: white !important;
   transition: transform 0.9s ease;
 }
@@ -272,6 +271,11 @@ button {
 
 /* ===========================   Mobile screens  =============================  */
 
+@media screen and (max-width: 480px){
+  body{
+    overflow-x: hidden;
+  }
+}
 /* Mobile screens for navbar */
 /* @media screen and (max-width: 480px) {
   .nav{
@@ -393,5 +397,12 @@ button {
     display: flex;
     flex-direction: row;
     font-size: 24.7px;
+  }
+
+  .sub-btn {
+    margin-left: 0rem;
+    color: var(--yellow) ;
+    background-color: white !important;
+    transition: transform 0.9s ease;
   }
 }
