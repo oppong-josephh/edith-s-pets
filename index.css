@@ -370,10 +370,7 @@ button {
   .contact-faw{
     margin-left: -37px !important;
   }
-}
 
-
-@media screen and (max-width: 480px){
   .footer-paw1 {
     position: absolute;
     top: -6rem;
@@ -384,5 +381,12 @@ button {
   .main-footer {
     margin-top: 14rem;
   }
+}
 
+ /* Mobile screens for footer*/
+@media screen and (max-width: 480px){
+  footer .footer-row{
+  display: flex;
+  flex-direction: column;
+  }
 }
