@@ -151,7 +151,7 @@ button {
  }
 
  .animals-btn{
-    padding: 12px 5rem !important;
+    padding: 12px 5rem ;
     transition: transform 0.9s ease;
     color: white;
  }
@@ -247,9 +247,9 @@ button {
 
 .footer-paw1 {
   position: absolute;
-  top: -30rem;
-  right: -12rem;
-  transform: scale(0.6);
+  top: -10rem;
+  right: 42rem;
+  transform: scale(0.8);
   z-index: -1;
 }
 
@@ -273,14 +273,14 @@ button {
 /* ===========================   Mobile screens  =============================  */
 
 /* Mobile screens for navbar */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .nav{
     display: none;
   }
   .logo-font{
     margin-right: 200rem !important;
   }
-}
+} */
 
 
 /* Mobile screens for home*/
@@ -301,7 +301,7 @@ button {
     justify-content: center;
   }
   .h-banner{
-    margin-top: 13rem;
+    margin-top: -15rem;
   }
   .animals-btns{
     margin-top: 12rem;
@@ -316,9 +316,9 @@ button {
   }
   .paw1 {
     position: absolute;
-    top: -6rem;
-    right: -1rem;
-    transform: scale(0.5);
+    top: -27rem;
+    right: -20rem;
+    transform: scale(0.18);
     opacity: 0.18;
     z-index: 1;
   }
@@ -351,6 +351,13 @@ button {
 }
 
 
+ /* Mobile screens for blog*/
+ @media screen and (max-width: 480px){
+  .blog-custom-card{
+    width: 20rem !important;
+  }
+}
+
  /* Mobile screens for contact*/
  @media screen and (max-width: 480px){
   .contact-text span:nth-of-type(1){
@@ -360,14 +367,17 @@ button {
   .contact-font{
       margin-left: -35px !important;
   }
+  .contact-faw{
+    margin-left: -37px !important;
+  }
 }
 
 
 @media screen and (max-width: 480px){
   .footer-paw1 {
     position: absolute;
-    top: -30rem;
-    right: -20rem;
+    top: -6rem;
+    right: -9rem;
     transform: scale(0.6);
     z-index: -1;
   }
